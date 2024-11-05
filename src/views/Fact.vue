@@ -3,7 +3,6 @@ import { computed, ComputedRef, defineComponent } from 'vue'
 import { useRoute } from 'vue-router'
 import FactCard from '@/components/FactCard.vue'
 
-
 export default defineComponent({
     components: { FactCard },
     setup() {

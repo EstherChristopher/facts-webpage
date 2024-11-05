@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div class="card">
     <div class="card-body text-center">
       <h4>
         Welcome to the cat facts page
@@ -12,11 +12,3 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  name: "HomeView",
-  components: {},
-});
-</script>
